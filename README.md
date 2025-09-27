@@ -62,7 +62,6 @@
 <p>
 <a href="https://linkedin.com/in/theyoussefmoussa" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="40"/></a>  
 <a href="https://www.kaggle.com/theyoussefmoussa" target="_blank"><img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" height="40" width="40"/></a>  
-<a href="https://www.codewars.com/users/theyoussefmoussa" target="_blank"><img src="https://www.vectorlogo.zone/logos/codewars/codewars-icon.svg" alt="Codewars" height="40" width="40"/></a>  
 <a href="https://codeforces.com/profile/josephmoussa" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="40" width="40"/></a>  
 <a href="https://leetcode.com/theyoussefmoussa" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="40" width="40"/></a>  
 <a href="mailto:youssefmoussaPC92@gmail.com"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="Gmail" height="40" width="40"/></a>  
