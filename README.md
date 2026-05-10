@@ -13,10 +13,12 @@ class Youssef:
     def __init__(self):
         self.name        = "Youssef Moussa"
         self.role        = "CS Student -> Aspiring Data Scientist"
+        self.education   = ["CS Degree", "DEPI Data Science Track"]
         self.location    = "Cairo, Egypt"
         self.status      = "Currently breaking ML algorithms (on purpose)"
         self.interests   = ["Machine Learning", "Data Analysis", "Problem Solving"]
         self.goal        = "Open to internships & collaborations"
+        self.languages   = {"Arabic": "Native", "English": "Proficient", "German": "Basic"}
 
     def current_mood(self):
         import random
@@ -66,6 +68,8 @@ MLOps & Production    [██████████░░░░░░░░░
 <p>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib"/>
   <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="48" height="48" alt="Seaborn"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/plotly/plotly-original.svg" width="48" height="48" alt="Plotly"/>
+  <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="48" height="48" alt="Streamlit"/>
 </p>
 
 **Modeling & Machine Learning**
@@ -84,6 +88,7 @@ MLOps & Production    [██████████░░░░░░░░░
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,mysql,fastapi" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter"/>
+  <img src="https://www.vectorlogo.zone/logos/google_colab/google_colab-icon.svg" width="48" height="48" alt="Google Colab"/>
 </p>
 
 ---
@@ -98,6 +103,16 @@ Forecasting daily unit sales across **thousands of products and stores** using t
 - Tech: `Python` · `Pandas` · `Scikit-learn` · `Time Series`
 - Team: 6 members | Role: **Team Leader**
 - [View Repository](https://github.com/theyoussefmoussa/DeepMetrix-)
+
+---
+
+### Supermarket Sales EDA
+> **Portfolio Project**
+
+Structured EDA on a 1,000-row supermarket sales dataset across 3 branches. Covers data cleaning, outlier detection, redundant column removal via mathematical verification, and distribution analysis — translating raw transactional data into business insights.
+
+- Tech: `Python` · `Pandas` · `Matplotlib` · `Seaborn`
+- [View Repository](https://github.com/theyoussefmoussa/supermarket_sales)
 
 ---
 
@@ -122,7 +137,7 @@ Forecasting daily unit sales across **thousands of products and stores** using t
 while alive:
     learn_something_new()
     build_something_real()
-    break_it_and_fix_it() 
+    break_it_and_fix_it()   # most important step
     sleep()                  # optional but recommended
 ```
 
