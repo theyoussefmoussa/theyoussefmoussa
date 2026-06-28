@@ -1,7 +1,5 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Youssef%20Moussa&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20in%20the%20Making&descAlignY=58&descSize=18" width="100%"/>
-
 </div>
 
 ---
@@ -12,13 +10,13 @@
 class Youssef:
     def __init__(self):
         self.name        = "Youssef Moussa"
-        self.role        = "CS Student -> Aspiring Data Scientist"
-        self.education   = ["CS Degree", "DEPI Data Science Track"]
+        self.role        = "CS Student → Aspiring Data Scientist"
+        self.education   = ["CS Degree @ Modern Academy", "DEPI Data Science Track"]
         self.location    = "Cairo, Egypt"
         self.status      = "Currently breaking ML algorithms (on purpose)"
         self.interests   = ["Machine Learning", "Data Analysis", "Problem Solving"]
         self.goal        = "Open to internships & collaborations"
-        self.languages   = {"Arabic": "Native", "English": "Proficient", "German": "Basic"}
+        self.languages   = {"Arabic": "Native", "English": "Proficient", "German": "Beginner"}
 
     def current_mood(self):
         import random
@@ -27,6 +25,7 @@ class Youssef:
             "convincing pandas to do what I want",
             "turning messy CSVs into actual insights",
             "reading yet another research paper at 2am",
+            "watching RAM usage like a hawk",
         ]
         return random.choice(moods)
 
@@ -36,21 +35,7 @@ print(f"Right now I'm: {me.current_mood()}")
 
 ---
 
-## What I'm Learning
-
-```
-Machine Learning      [████████████████████░░░░] 80%
-Deep Learning         [████████████████░░░░░░░░] 60%
-Statistical Analysis  [████████████████████░░░░] 72%
-MLOps & Production    [██████████░░░░░░░░░░░░░░] 40%
-```
-
-> Still climbing — and enjoying every step of it.
-
----
-
-## Tech Stack
-
+## What I'm Working With
 ### Languages
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,mysql" />
@@ -62,6 +47,7 @@ MLOps & Production    [██████████░░░░░░░░░
 <p>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas"/>
+  <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars-logo-dark.svg" width="48" height="48" alt="Polars"/>
 </p>
 
 **Visualization**
@@ -86,9 +72,8 @@ MLOps & Production    [██████████░░░░░░░░░
 
 ### Tools & Platforms
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,mysql,fastapi" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter"/>
-  <img src="https://www.vectorlogo.zone/logos/google_colab/google_colab-icon.svg" width="48" height="48" alt="Google Colab"/>
 </p>
 
 ---
@@ -98,20 +83,32 @@ MLOps & Production    [██████████░░░░░░░░░
 ### Walmart M5 Sales Forecasting
 > **Graduation Project** | Team: DeepMetrix-
 
-Forecasting daily unit sales across **thousands of products and stores** using the real-world M5 Walmart dataset. Built an end-to-end pipeline covering data cleaning, feature engineering, and time-series modeling.
+End-to-end forecasting pipeline on the real-world M5 competition dataset — **59M rows** across thousands of products and stores. Built from scratch: data cleaning, wide-to-long transformation, feature engineering (lag, rolling, time, price features), and time-series modeling with LightGBM.
 
-- Tech: `Python` · `Pandas` · `Scikit-learn` · `Time Series`
-- Team: 6 members | Role: **Team Leader**
+- **Scale:** 59M rows × 34 features after full pipeline
+- **Stack:** `Python` · `Polars` · `Pandas` · `LightGBM` · `Scikit-learn`
+- **Role:** Team Leader (6-member team)
 - [View Repository](https://github.com/theyoussefmoussa/DeepMetrix-)
+
+---
+
+### LA Crimes EDA (2020–2024)
+> **Portfolio Project**
+
+Exploratory analysis on ~1M LAPD crime records. Built a modular pipeline covering data cleaning, feature engineering (temporal, spatial, victim, crime-type features), and visual analysis — structured for reproducibility and clean separation of concerns.
+
+- **Scale:** ~1M records
+- **Stack:** `Python` · `Pandas` · `Matplotlib` · `Seaborn`
+- [View Repository](https://github.com/theyoussefmoussa/la-crimes-eda)
 
 ---
 
 ### Supermarket Sales EDA
 > **Portfolio Project**
 
-Structured EDA on a 1,000-row supermarket sales dataset across 3 branches. Covers data cleaning, outlier detection, redundant column removal via mathematical verification, and distribution analysis — translating raw transactional data into business insights.
+Structured EDA on supermarket transactional data. Covers data cleaning, outlier detection, redundant column removal via mathematical verification, and distribution analysis — translating raw data into business insights.
 
-- Tech: `Python` · `Pandas` · `Matplotlib` · `Seaborn`
+- **Stack:** `Python` · `Pandas` · `Matplotlib` · `Seaborn`
 - [View Repository](https://github.com/theyoussefmoussa/supermarket_sales)
 
 ---
@@ -122,7 +119,6 @@ Structured EDA on a 1,000-row supermarket sales dataset across 3 branches. Cover
   <img src="https://github-readme-stats.vercel.app/api?username=theyoussefmoussa&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=theyoussefmoussa&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="170"/>
 </div>
-
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=theyoussefmoussa&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1"/>
 </div>
@@ -131,7 +127,7 @@ Structured EDA on a 1,000-row supermarket sales dataset across 3 branches. Cover
 
 ## Dev Philosophy
 
-> *"Data is the new oil — but like oil, it's valuable only when refined."*
+> *"Make it work, make it right, make it fast — in that order."*
 
 ```python
 while alive:
